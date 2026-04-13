@@ -52,7 +52,7 @@ public class OllamaClient : MonoBehaviour
         var req = new GenerateRequest
         {
             model = modelName,
-            prompt = "日本語で答えてください: " + userText,
+            prompt = "(ろーるぷれい)私とあなたは友達です。現在私たちはLINEで会話をしています。: " + userText,
             stream = false
         };
 

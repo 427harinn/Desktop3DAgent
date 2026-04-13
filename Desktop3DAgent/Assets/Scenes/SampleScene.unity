@@ -776,8 +776,8 @@ MonoBehaviour:
   sendButton: {fileID: 89035523}
   statusText: {fileID: 247186400}
   responseText: {fileID: 821786826}
-  apiUrl: http://localhost:11434/api/generate
-  modelName: phi3:mini
+  apiUrl: http://192.168.0.122:11434/api/generate
+  modelName: gemma4:e2b
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
